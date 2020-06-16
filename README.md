@@ -8,8 +8,8 @@
  
 #Running Unit test for a single file
     For quick testing one file `./vendor/bin/phpunit -c phpunit.xml --debug ./tests/Unit/Http/Api/PropertyControllerTest`
-   For Running one test method `./vendor/bin/phpunit -c phpunit.xml --debug ./tests/Unit/Http/Api/PropertyControllerTest --filter testExample`
-
+    For Running one test method `./vendor/bin/phpunit -c phpunit.xml --debug ./tests/Unit/Http/Api/PropertyControllerTest --filter testExample`
+    
 #UUID Generation 
 For Uuid generation i have used two packages
     dyrynda/laravel-model-uuid 
@@ -22,3 +22,9 @@ field which uses model to convert it to string and vice versa.
 
 To run the migrations successfully please install these two packages
     
+#Database Setup 
+    Create database archistar in your local 
+    Provide all related credential such as your username and password
+    For Reference please follow the .env.example as original .env is not copied for security purposes
+    Run the seeds
+     
